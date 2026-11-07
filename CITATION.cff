@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this package, please cite the manuscript below."
+title: "ChromaField reproduction package"
+abstract: >-
+  Reproduction artefacts for "Beneath the Pigment and the Pen: Dual-Inversion
+  Implicit Boundary Fields for Tone-Robust, Annotator-Aware and Calibrated Skin
+  Lesion Segmentation": a notebook that runs four training stages over three
+  seeds and writes logs, checkpoints, per-image predictions, calibration
+  records, evaluation and statistical scripts, baseline configurations and a
+  de-duplication audit, together with one complete committed run.
+authors:
+  - name: "The ChromaField authors"
+license: MIT
+repository-code: "https://github.com/Codebase1157/ChromaField"
+keywords:
+  - skin lesion segmentation
+  - dermoscopy
+  - implicit neural representation
+  - conformal prediction
+  - annotator variability
+  - reproducibility
+preferred-citation:
+  type: article
+  title: >-
+    Beneath the Pigment and the Pen: Dual-Inversion Implicit Boundary Fields
+    for Tone-Robust, Annotator-Aware and Calibrated Skin Lesion Segmentation
+  authors:
+    - name: "The ChromaField authors"
+  year: 2026
+  notes: "Manuscript under review; update this entry on acceptance."

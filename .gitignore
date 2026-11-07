@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# local runs land here; only curated runs under artifacts/ are committed
+chromafield_artifacts/
+chromafield_artifacts_*.zip
+input_images/
+input_masks/
+
+# predictions/eval_recomputed.json and predictions/stats_recomputed.csv are
+# deliberately NOT ignored: they are listed in MANIFEST.json, and re-running
+# the released scripts reproduces them byte for byte, which CI asserts.
